@@ -25,7 +25,7 @@ jobs:
       - run: | 
           apk update
           apk add dotnet8-sdk
-          semgrep ci --allow-local-builds --verbose --supply-chain# name: Semgrep Scans with .NET lock files
+          semgrep ci --allow-local-builds --verbose --supply-chain # name: Semgrep Scans with .NET lock files
 
 # on:
 #   workflow_dispatch: 
